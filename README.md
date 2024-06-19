@@ -4,6 +4,8 @@ For Pulumi interview. This is a serverless app consisting of a S3 bucket, Lambda
 
 The prompt is as follows:
 
+---
+
 Using Pulumi, create and deploy a serverless application that processes uploads to a storage bucket and builds an index of the files in a database table.
 
 Use one of AWS, Azure, or Google Cloud and your language of choice.
@@ -18,4 +20,4 @@ You cannot use the Pulumi AWS SDK from within your serverless function. You must
 Success criteria:
 - Should be able to upload a file to the bucket and see the database entry get created
 
-Serverless app that triggers a Lambda on S3 object upload and writes the filename and timestamp to a DynamoDB table.
+---
